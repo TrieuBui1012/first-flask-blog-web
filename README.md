@@ -6,6 +6,6 @@ $ virtualenv .venv <br>
 3. Then run the command: <br>
 $ .\.venv\Scripts\activate <br>
 4. Then install the dependencies: <br>
-$ (env) pip install -r requirements.txt <br>
+$ (.venv) pip install -r requirements.txt <br>
 5. Finally start the web server: <br>
-$ (env) python app.py <br>
+$ (.venv) python app.py <br>
